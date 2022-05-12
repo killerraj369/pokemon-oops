@@ -2,7 +2,7 @@
 This is a beginner Pokemon Game Project made using various OOP's concepts and had been written in C++.
 
 # How to download and Run the Project
-Step 0.) Go to 4th Step if you want sound in the Project OR  Go to 5th Step if you don't want sound sound in the Project 
+Step 0.) Go to 4th Step if you want to include sound in the Project else  Go to 5th Step. 
 
 Step 1.) IN VS CODE :- setup vs code using given YouTube Link :- https://youtu.be/9WeDQHi6sJs  
 
