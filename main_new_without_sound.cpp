@@ -1008,6 +1008,7 @@ void Player::battle(int poke,int a)
             win=true;
 
         }
+	 menu();       // going back to main menu   
     }
 
 
