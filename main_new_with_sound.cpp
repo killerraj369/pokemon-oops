@@ -87,9 +87,9 @@ public:
 
 void Player::Professor_at_starting()
 {
-	int a;
+	
 	// sound function will be imported (open.wav)
- PlaySound(TEXT("open.wav"), NULL, SND_ASYNC);
+ 
 	// Import Professor oak photos
 	//int gmode=DETECT,gm;
 	//	initgraph(&gmode,&gm,"c://tc//bgi");
@@ -98,7 +98,45 @@ void Player::Professor_at_starting()
 	//readimagefile("oak1.png",300,300,100,200);
 
 	// open_audio();
-	getchar();
+	
+     const string POKEMON_BANNER = "                                  ,'\\\n"
+                              "    _.----.        ____         ,'  _\\   ___    ___     ____\n"
+                              "_,-'       `.     |    |  /`.   \\,-'    |   \\  /   |   |    \\  |`.\n"
+                              "\\      __    \\    '-.  | /   `.  ___    |    \\/    |   '-.   \\ |  |\n"
+                              " \\.    \\ \\   |  __  |  |/    ,','_  `.  |          | __  |    \\|  |\n"
+                              "   \\    \\/   /,' _`.|      ,' / / / /   |          ,' _`.|     |  |\n"
+                              "    \\     ,-'/  /   \\    ,'   | \\/ / ,`.|         /  /   \\  |     |\n"
+                              "     \\    \\ |   \\_/  |   `-.  \\    `'  /|  |    ||   \\_/  | |\\    |\n"
+                              "      \\    \\ \\      /       `-.`.___,-' |  |\\  /| \\      /  | |   |\n"
+                              "       \\    \\ `.__,'|  |`-._    `|      |__| \\/ |  `.__,'|  | |   |\n"
+                              "        \\_.-'       |__|    `-._ |              '-.|     '-.| |   |\n"
+                              "                                `'                            '-._|";
+
+
+    cout << POKEMON_BANNER << endl;
+
+
+    cout<<"\n\n\n GAME LOADING ";
+    cout<<".";
+    sleep(1);
+    cout<<"..";
+    sleep(1);
+    cout<<".........";
+    sleep(1);
+    cout<<"..........";
+    sleep(1);
+    cout<<"..............";
+    sleep(1);
+    cout<<"\t\t\n\n PRESS A KEY TO CONTINUE ";
+    sleep(1);
+
+    getchar();
+    system("cls");
+	
+
+	
+	PlaySound(TEXT("open.wav"), NULL, SND_ASYNC);
+	int a;
 	cout << "Hello there!";
 	cout << "\nWelcome to the world of POKEMON";
 	getchar();
