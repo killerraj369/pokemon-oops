@@ -16,7 +16,9 @@ Step 5.) Now Compile the main_new_without_sound.cpp file
 
 # How to Play the Game 
 1.) Catch as many as pokemon you can catch and train them
+
 2.) Defeat the Pokemon Gym trainer 
+
 3.) Win the Badge to win the Game
 
 
